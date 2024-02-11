@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+background: linear-gradient(to bottom, #FFC0CB, #FFFFFF); 
+}
+
+p {
+    text-align: center;
+    font-size: 50px;
+}
+
+h6 {
+    color: gray;
+}
+
+.twoLines {
+    font-size: 35px;
+}
+
+img.centered-image {
+    width: 21%;
+    height: auto;
+    margin: 0 auto; 
+    padding-bottom: 2%; 
+}
+
+.radio-container {
+    text-align: center;
+    font-size: 24px;
+}
+
+.radio-container input[type="radio"] {
+    margin: 0 10px;
+    transform: scale(2);
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.next-button {
+    font-size: 24px;
+    padding: 10px 20px;
+}
+
+#normalPic {
+    height: auto;
+    margin: 0 auto; 
+    padding-bottom: 2%; 
+    width: 40%;
+}
